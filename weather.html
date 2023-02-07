@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="stylesheet.css" />
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="general.css" />
+        <link rel="stylesheet" href="media.css" />
+        <title>weather</title>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <div class="space-between header-container">
+                    <div class="space-between header-leftside">
+                        <div class="header-icons">
+                            <a href="#"
+                                ><img
+                                    src="./images/Union.png"
+                                    alt="cloud-icon"
+                                    class="cloud-icon"
+                            /></a>
+                            <a href="#"
+                                ><img
+                                    src="./images/Subtract.png"
+                                    alt="sun-header-icon"
+                                    class="sun-header-icon"
+                            /></a>
+                        </div>
+                        <div>
+                            <a href="#"><p>Weather by VicBox</p></a>
+                        </div>
+                    </div>
+                    <div>
+                        <nav>
+                            <ul class="flex-align-center">
+                                <li><a href="index.html">Back</a></li>
+                                <li><a href="#">GitHub</a></li>
+                                <li><a href="#">About</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+            <section>
+                <div class="grid middle-section">
+                    <div class="block" id="block1">
+                        <div class="space-between icon-date-part">
+                            <div>
+                                <img
+                                    id="currentWeatherIcon"
+                                    alt="currentWeatherIcon"
+                                    class="current-Weather-Icon"
+                                />
+                            </div>
+                            <div>
+                                <p id="cityName"></p>
+                                <p id="currentdate"></p>
+                            </div>
+                        </div>
+                        <div class="temp-indicator-part">
+                            <div>
+                                <p id="tempIndicator"></p>
+                                <span>˚C</span>
+                            </div>
+                            <div>
+                                <p id="weatherDescription"></p>
+                            </div>
+                        </div>
+                        <div class="grid extra-weather-stats">
+                            <div>
+                                <div class="space-between event-left-side">
+                                    <div>
+                                        <img
+                                            src="./images/visibility-icon.png"
+                                            alt="Visibility"
+                                            class="visibility-icon"
+                                        />
+                                        <p>Visibility</p>
+                                    </div>
+                                    <div>
+                                        <p id="VisibilityIndicator"></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="space-between event-right-side">
+                                    <div>
+                                        <img
+                                            src="./images/temp-icon.png"
+                                            alt="Temperature"
+                                            class="temp-icon"
+                                        />
+                                        <p>Feels like</p>
+                                    </div>
+                                    <div>
+                                        <p id="feelsLikeIndicator"></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="space-between event-left-side">
+                                    <div>
+                                        <img
+                                            src="./images/humidity-icon.png"
+                                            alt="Humidity"
+                                            class="humidity-icon"
+                                        />
+                                        <p>Humidity</p>
+                                    </div>
+                                    <div>
+                                        <p id="humidityIndicator"></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="space-between event-right-side">
+                                    <div>
+                                        <img
+                                            src="./images/wind-icon.png"
+                                            alt="Wind"
+                                            class="wind-icon"
+                                        />
+                                        <p>Wind</p>
+                                    </div>
+                                    <div>
+                                        <p id="windIndicator"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block" id="block2">
+                        <div class="flex-center-content adder-block">
+                            <div>
+                                <div class="plus-icon-box flex-center-content">
+                                    <a href="#"
+                                        ><img
+                                            src="./images/add-block-icon.png"
+                                            alt="plus-icon"
+                                            class="plus-icon"
+                                    /></a>
+                                </div>
+                                <div class="adder-title">
+                                    <p>Add new location</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer>
+                <div class="weather-footer">
+                    <p>
+                        Made with
+                        <img src="./images/heart-icon.png" alt="heart" />
+                        by Victor Alvarado
+                    </p>
+                </div>
+            </footer>
+        </div>
+        <script src="javascript.js"></script>
+    </body>
+</html>
