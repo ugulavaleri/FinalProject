@@ -40,7 +40,7 @@ const getData = async () => {
 getData();
 
 const setIndicators = (data) => {
-    cityName.textContent = data.name;
+    cityName.textContent = data.name.replaceAll("'", "");
     currentdate.textContent = currentDate();
     weatherDescription.textContent = data.weather[0].description;
     currentWeatherIcon.setAttribute(
