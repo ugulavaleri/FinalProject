@@ -1,6 +1,10 @@
 .flex {
     display: flex;
 }
+.direction-column {
+    display: flex;
+    flex-direction: column;
+}
 .grid {
     display: grid;
 }
@@ -16,4 +20,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.centerByMargin {
+    margin: 0 auto;
 }

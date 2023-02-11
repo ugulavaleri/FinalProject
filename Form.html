@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="stylesheet.css" />
+        <link rel="stylesheet" href="media.css" />
+        <link rel="stylesheet" href="general.css" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Form</title>
+    </head>
+    <body>
+        <div class="form-container">
+            <div class="bg-illustration">
+                <section>
+                    <div class="form-section centerByMargin">
+                        <div class="block" id="content">
+                            <div class="inside-block-box centerByMargin">
+                                <div>
+                                    <h2 id="SignUpTitle">Signup</h2>
+                                    <p>There is no charge upon registration!</p>
+                                </div>
+                                <div class="form-box" id="formBox">
+                                    <form action="" id="registerForm">
+                                        <div
+                                            class="direction-column input-part-box"
+                                        >
+                                            <label for="Email"
+                                                >Email Address</label
+                                            >
+                                            <input
+                                                type="email"
+                                                id="Email"
+                                                name="email"
+                                                placeholder="hello@mysite.com"
+                                            />
+                                        </div>
+                                        <div
+                                            class="direction-column input-part-box Drop-down-menu"
+                                        >
+                                            <label for="country">Country</label>
+                                            <input
+                                                type="text"
+                                                id="country"
+                                                name="country"
+                                                placeholder="Germany"
+                                                list="countryList"
+                                            />
+                                            <select
+                                                name="CountryList"
+                                                id="CountryList"
+                                            >
+                                                <option value="Change" selected>
+                                                    Change
+                                                </option>
+                                                <option value="Georgia">
+                                                    Georgia
+                                                </option>
+                                                <option value="France">
+                                                    France
+                                                </option>
+                                                <option value="USA">USA</option>
+                                                <option value="Brazil">
+                                                    Brazil
+                                                </option>
+                                            </select>
+                                        </div>
+                                        <div
+                                            class="space-between input-part-box"
+                                        >
+                                            <div class="direction-column">
+                                                <label for="City">City</label>
+                                                <input
+                                                    type="text"
+                                                    name="city"
+                                                    id="City"
+                                                    placeholder="Berlin"
+                                                />
+                                            </div>
+                                            <div class="direction-column">
+                                                <label for="CountryCode"
+                                                    >Zip Code</label
+                                                >
+                                                <input
+                                                    type="number"
+                                                    name="zipcode"
+                                                    id="CountryCode"
+                                                    placeholder="10178"
+                                                />
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <button
+                                                type="submit"
+                                                id="submitBtn"
+                                            >
+                                                Signup now
+                                            </button>
+                                        </div>
+                                        <div>
+                                            <p id="valueCheck"></p>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="space-between extra-buttons">
+                                    <div>
+                                        <button>Signup with Facebook</button>
+                                    </div>
+                                    <div>
+                                        <button id="backToHome">
+                                            Back to home page
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <script src="javascript.js"></script>
+    </body>
+</html>
