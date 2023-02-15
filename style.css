@@ -124,6 +124,8 @@
     row-gap: 30px;
     margin-top: 75px;
     padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .extra-weather-stats img {
     margin-right: 0px;
@@ -153,11 +155,11 @@
     border-left-color: #fff;
 }
 .event-right-side {
-    padding-left: 18px;
+    padding-left: 30px;
     flex-wrap: wrap;
 }
 .event-left-side {
-    padding-right: 18px;
+    padding-right: 30px;
     flex-wrap: wrap;
 }
 

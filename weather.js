@@ -48,7 +48,7 @@ const setIndicators = (data) => {
         "https://openweathermap.org/img/wn/" + data.weather[0].icon + "@2x.png"
     );
     currentWeatherIcon.style.width = "110px";
-    VisibilityIndicator.textContent = data.visibility;
+    VisibilityIndicator.textContent = `${data.visibility / 1000}M`;
     feelsLikeIndicator.textContent = Math.round(data.main.feels_like);
     humidityIndicator.textContent = data.main.humidity;
     windIndicator.textContent = data.wind.speed;

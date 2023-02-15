@@ -7,6 +7,12 @@
     .header-container .mobileResolution {
         display: none;
     }
+    .extra-weather-stats .event-right-side {
+        padding-left: 18px;
+    }
+    .extra-weather-stats .event-left-side {
+        padding-right: 18px;
+    }
     .container header nav ul a {
         font-size: 20px;
     }
