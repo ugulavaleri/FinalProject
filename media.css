@@ -42,4 +42,53 @@
         box-shadow: none;
         padding-top: 100px;
     }
+    /* Main page responsive */
+
+    .Introduction .aboutCompany {
+        min-height: 60vh;
+    }
+    .Introduction .aboutCompany .desktopNav a {
+        display: none;
+    }
+    .aboutCompany-box .mobileIcon {
+        display: inline-block;
+    }
+    .aboutCompany-box .mobileNav {
+        display: block;
+    }
+    .Introduction .Authorization-part {
+        display: none;
+    }
+    .Introduction .aboutCompany-box .info-textarea {
+        grid-template-columns: 1fr;
+    }
+    .Introduction .aboutCompany-box .videoArea {
+        display: none;
+    }
+    .aboutCompany .aboutCompany-box {
+        padding-bottom: 20px;
+    }
+    .aboutCompany .aboutCompany-box h1 {
+        max-width: 423px;
+        width: 100%;
+        line-height: 48px;
+        font-size: 32px;
+    }
+    .Introduction .extraCompanyInfo-box {
+        grid-template-columns: 1fr;
+    }
+    .Introduction .extraCompanyInfo-box span {
+        font-size: 24px;
+    }
+    .Introduction .extraCompanyInfo-box div:first-child p {
+        font-size: 24px;
+        max-width: 200px;
+        width: 100%;
+    }
+    .Introduction .aboutCompany-box .info-textarea {
+        margin-top: 60px;
+    }
+    .buttons-box .videoBtn {
+        display: inline-block;
+    }
 }

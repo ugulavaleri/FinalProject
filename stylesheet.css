@@ -24,7 +24,14 @@ font-face {
     font-style: normal;
     font-display: swap;
 }
-
+@font-face {
+    font-family: "Poppins";
+    src: url("fonts/Poppins-Bold.woff2") format("woff2"),
+        url("fonts/Poppins-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
 /* Form fonts */
 
 @font-face {

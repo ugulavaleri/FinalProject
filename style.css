@@ -55,8 +55,9 @@
     left: -2px;
     top: -10px;
 }
-.block {
-    width: 450px;
+.middle-section .block {
+    max-width: 450px;
+    width: 100%;
     height: 575px;
     background-color: rgba(0, 0, 0, 0.2);
     border-radius: 48px;
@@ -334,4 +335,220 @@ select {
     position: absolute;
     right: 12px;
     top: 42px;
+}
+
+/* main page styles */
+
+.Introduction {
+    font-family: "Poppins";
+    position: relative;
+}
+.aboutCompany {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 1) 0%,
+        rgba(210, 210, 210, 1) 0%,
+        rgba(199, 199, 199, 1) 13%,
+        rgba(179, 179, 179, 1) 26%,
+        rgba(0, 0, 0, 1) 100%
+    );
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.aboutCompany-box {
+    max-width: 1350px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 20px 50px 20px;
+}
+.logo-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ff9f34;
+}
+.aboutCompany a {
+    text-decoration: none;
+    color: #fff;
+}
+.logo-circle a {
+    font-size: 18px;
+    font-weight: 600;
+}
+.logo-title a {
+    font-size: 24px;
+    font-weight: 600;
+}
+.Authorization-part,
+.logo-part {
+    gap: 20px;
+}
+.aboutCompany .desktopNav ul {
+    list-style: none;
+    gap: 40px;
+}
+.Authorization-part a:last-child {
+    font-weight: 500;
+    padding: 10px 30px;
+    border: 1px solid #fff;
+}
+.Authorization-part a:last-child:hover {
+    background-color: rgba(255, 255, 255, 0.28);
+    transition: background-color 0.14s;
+}
+.Authorization-part a:last-child:not(:hover) {
+    background-color: transparent;
+    transition: background-color 0.14s;
+}
+.aboutCompany-box {
+    color: #fff;
+}
+.aboutCompany-box h1 {
+    max-width: 529px;
+    width: 100%;
+    letter-spacing: 1px;
+    line-height: 72px;
+    font-size: 52px;
+    font-weight: 700;
+}
+.aboutCompany-box p {
+    max-width: 514px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 32px;
+    margin-top: 20px;
+}
+.headline {
+    max-width: 520px;
+    width: 100%;
+    letter-spacing: 1px;
+    font-weight: 700;
+    line-height: 72px;
+    font-size: 52px;
+}
+
+/*  mobile nav styles  */
+.mobileNav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+    margin-top: 180px;
+    font-size: 20px;
+}
+.mobileNav ul li::after {
+    content: "";
+    display: block;
+    width: 120px;
+    height: 1.5px;
+    background-color: #fff;
+}
+.mobileNav {
+    position: absolute;
+    background-color: rgba(34, 34, 34, 0.819);
+    width: 100%;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    transition: top 0.7s;
+    display: none;
+}
+.mobileIcon {
+    position: relative;
+    z-index: 999;
+    display: none;
+    cursor: pointer;
+}
+.hide {
+    top: -100%;
+}
+.show {
+    top: 0;
+    backdrop-filter: blur(3px);
+}
+
+/* buttons */
+.buttons-box {
+    max-width: 300px;
+    width: 100%;
+    margin-top: 40px;
+    gap: 10px;
+}
+.aboutCompany-box .getStartedBtn {
+    width: 165px;
+    height: 56px;
+    font-size: 16px;
+
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+.aboutCompany-box .getStartedBtn:hover {
+    background-color: #ffb45f;
+    transition: background-color 0.15s;
+}
+.aboutCompany-box .getStartedBtn:not(:hover) {
+    background-color: #ff9f34;
+    transition: background-color 0.15s;
+}
+.videoBtn {
+    display: none;
+    width: 165px;
+    height: 56px;
+    font-size: 16px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    cursor: pointer;
+}
+.aboutCompany-box .videoBtn:hover {
+    background-color: rgb(66, 66, 66);
+    transition: background-color 0.15s;
+}
+.aboutCompany-box .videoBtn:not(:hover) {
+    background-color: transparent;
+    transition: background-color 0.15s;
+}
+
+.aboutCompany-box .info-textarea {
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(400px, auto);
+    gap: 40px;
+    margin-top: 150px;
+}
+.aboutCompany-box .info-textarea .videoIconBg {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-top: -150px;
+}
+
+.extraCompanyInfo {
+    background-color: #fceee0;
+}
+.extraCompanyInfo-box {
+    max-width: 1350px;
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px;
+    align-items: center;
+    padding: 90px 20px;
+}
+.extraCompanyInfo-box span {
+    font-size: 40px;
+    font-weight: 700;
+}
+.extraCompanyInfo-box div:first-child p {
+    font-size: 40px;
+}
+.extraCompanyInfo-box div:last-child p {
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: normal;
+    max-width: 470px;
+    width: 100%;
 }
