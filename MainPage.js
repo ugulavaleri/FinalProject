@@ -13,8 +13,10 @@ mobileIcon.addEventListener("click", () => {
     mobileNav.classList.toggle("show");
     mobileNav.classList.toggle("hide");
     if (mobileNav.classList.contains("show")) {
-        document.body.style.overflowY = "hidden";
+        // document.body.style.overflowY = "hidden";
+        document.documentElement.style.overflowY = "hidden";
     } else {
-        document.body.style.overflowY = "scroll";
+        // document.body.style.overflowY = "scroll";
+        document.documentElement.style.overflowY = "scroll";
     }
 });
