@@ -30,7 +30,7 @@ const getData = async () => {
             console.log(`${response.status}, ERROR!`);
         } else {
             const returnedData = await response.json();
-            console.log(returnedData);
+            // console.log(returnedData);
             setIndicators(returnedData);
         }
     } catch (error) {
