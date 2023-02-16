@@ -388,11 +388,11 @@ select {
 }
 .Authorization-part,
 .logo-part {
-    gap: 20px;
+    gap: 15px;
 }
 .aboutCompany .desktopNav ul {
     list-style: none;
-    gap: 40px;
+    gap: 30px;
 }
 .Authorization-part a:last-child {
     font-weight: 500;
@@ -434,6 +434,9 @@ select {
     line-height: 72px;
     font-size: 52px;
 }
+.insideHeader {
+    gap: 10px;
+}
 
 /*  mobile nav styles  */
 .mobileNav ul {
@@ -472,8 +475,12 @@ select {
     top: -100vh;
 }
 .show {
+    height: 105vh;
     top: 0;
     backdrop-filter: blur(3px);
+}
+.scrollHide {
+    overflow-y: hidden;
 }
 
 /* buttons */
@@ -558,4 +565,71 @@ select {
     font-weight: normal;
     max-width: 470px;
     width: 100%;
+}
+
+/*   about company team styles   */
+
+.insideTeamContainer {
+    position: relative;
+}
+.TeamBox {
+    font-family: "Poppins";
+    max-width: 1150px;
+    width: 100%;
+    background-color: #402613;
+    margin-top: 300px;
+
+    position: sticky;
+    left: 100%;
+    padding-left: 500px;
+    padding-top: 50px;
+    color: #fff;
+
+    min-height: 540px;
+    height: auto;
+    padding-bottom: 20px;
+}
+.insideTeamContainer {
+    position: relative;
+}
+.TeamImage {
+    max-width: 600px;
+    width: 100%;
+    max-height: 500px;
+    height: 100%;
+    position: absolute;
+    z-index: 20;
+    top: -200px;
+    left: -200px;
+}
+.TeamImage img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.TeamTitle {
+    max-width: 445px;
+    width: auto;
+}
+.TeamTitle h2 {
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: 0.5px;
+}
+.TeamText {
+    max-width: 514px;
+    width: 100%;
+    font-weight: normal;
+}
+.TeamText p {
+    font-size: 16px;
+    line-height: 32px;
+}
+.TeamText p:first-child {
+    margin-top: 40px;
+}
+.TeamText p:last-child {
+    font-size: 16px;
+    margin-top: 30px;
+    line-height: 32px;
 }

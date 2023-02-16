@@ -52,10 +52,14 @@
         padding-top: 100px;
     }
     .inside-block-box .extra-buttons button {
-        width: 170px;
+        max-width: 170px;
+        width: 100%;
+        padding: 0 10px;
     }
-    /* Main page responsive */
-
+    /* Main page introduction responsive */
+    .aboutCompany .desktopNav {
+        display: none;
+    }
     .Introduction .aboutCompany {
         min-height: 60vh;
     }
@@ -67,6 +71,7 @@
     }
     .aboutCompany-box .mobileNav {
         display: block;
+        z-index: 20;
     }
     .Introduction .Authorization-part {
         display: none;
@@ -102,5 +107,33 @@
     }
     .buttons-box .videoBtn {
         display: inline-block;
+    }
+
+    /* Main page 'about team' responsive */
+
+    .TeamBox .TeamTitle h2 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .TeamBox .TeamText p:last-child {
+        display: none;
+    }
+    .insideTeamContainer .TeamBox {
+        padding: 170px 20px 20px 20px;
+        width: 100%;
+        height: auto;
+    }
+    .TeamBox .TeamImage {
+        max-width: 327px;
+        width: 100%;
+        max-height: 272px;
+        width: 100%;
+        top: -150px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .TeamBox .TeamImage img {
+        padding: 0 20px;
+        height: 100%;
     }
 }
