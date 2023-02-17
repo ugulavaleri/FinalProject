@@ -136,4 +136,40 @@
         padding: 0 20px;
         height: 100%;
     }
+
+    /* Main page 'Benefits' responsive */
+
+    .benefits {
+        grid-template-columns: 1fr;
+        padding: 0px 30px;
+        row-gap: 40px;
+        column-gap: 0;
+    }
+    .BenefitsContainer .benefits .benefitsRightPart {
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+    .benefits .benefitsLeftPart .benefitsheadline {
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    .benefits .benefitsheadline h2 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .benefits .benefitsheadline {
+        max-width: 450px;
+        width: 100%;
+    }
+    .benefits .advantagesHeadline div {
+        max-width: 450px;
+        width: 100%;
+    }
+    .advantagesHeadline div h3,
+    .arrowIconBox {
+        display: none;
+    }
+    .advantagesList ul {
+        align-items: center;
+    }
 }
