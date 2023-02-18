@@ -174,7 +174,9 @@
     }
 
     /* Main page 'caseStudies responsive */
-
+    .caseStudies {
+        margin-top: 100px;
+    }
     .caseStudies .caseStudiesHeadline {
         flex-direction: column;
     }

@@ -1,5 +1,6 @@
 /*      Main page script        */
 
+//  dropdown menu
 const mobileIcon = document.getElementById("mobileIcon");
 const mobileNav = document.getElementById("mobileNav");
 
@@ -13,7 +14,7 @@ mobileIcon.addEventListener("click", () => {
     }
 });
 
-//  swiper JS (Works after refresh)
+//  swiper JS  -- (Works after refresh)
 
 const mySwipper = document.getElementById("mySwipper");
 const swiperWrapper = document.getElementById("swiperWrapper");
