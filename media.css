@@ -173,7 +173,7 @@
         align-items: center;
     }
 
-    /* Main page 'caseStudies responsive */
+    /* Main page 'caseStudies' responsive */
     .caseStudies {
         margin-top: 100px;
     }
@@ -195,5 +195,20 @@
     }
     .caseStudies .caseStudiesImage {
         max-width: 280px;
+    }
+
+    /* Main page 'Case studies that company have worked' responsive  */
+    .frequentlyQuestions .frequentlyQuestionsHeadline h2 {
+        font-size: 24px;
+    }
+    .hideText {
+        display: inline-block;
+    }
+    .frequentlyQuestionsbody .dropDownIcon {
+        display: none;
+    }
+    .frequentlyQuestionsbody .questionItem {
+        border: none;
+        text-align: center;
     }
 }

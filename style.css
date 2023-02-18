@@ -776,3 +776,58 @@ select {
 .caseStudies .mySwiper {
     max-width: 300px;
 }
+
+/*   Case studies that company have worked styles   */
+.frequentlyQuestions {
+    max-width: 1350px;
+    width: 100%;
+    padding: 0 20px;
+}
+.questionItem {
+    border: 1px solid #dddddd;
+    padding: 20px 35px;
+}
+.frequentlyQuestionsbody {
+    row-gap: 50px;
+    margin-top: 50px;
+}
+.frequentlyQuestionsbody .questionItem p:first-child {
+    font-size: 20px;
+    font-weight: 500;
+    color: #1e1000;
+    margin-bottom: 10px;
+}
+.frequentlyQuestionsbody .questionItem p:last-child {
+    font-size: 16px;
+    font-weight: 400;
+    color: #aaaaaa;
+    line-height: 32px;
+    max-width: 1000px;
+    width: 100%;
+}
+.frequentlyQuestions .frequentlyQuestionsHeadline {
+    margin-top: 200px;
+    text-align: center;
+}
+.frequentlyQuestions .frequentlyQuestionsHeadline h2 {
+    margin-bottom: 20px;
+    font-size: 40px;
+    color: #1e1000;
+    letter-spacing: -0.5px;
+}
+.frequentlyQuestions .frequentlyQuestionsHeadline p {
+    max-width: 500px;
+    width: 100%;
+    line-height: 28.8px;
+    font-weight: 400;
+    font-size: 16px;
+}
+.showText {
+    display: inline-block;
+}
+.hideText {
+    display: none;
+}
+.frequentlyQuestionsbody .questionItem {
+    cursor: pointer;
+}
