@@ -770,6 +770,7 @@ select {
     max-width: 300px;
     width: 100%;
     line-height: 32px;
+    padding-bottom: 25px;
 }
 .caseStudies .caseStudiesworksBox {
     margin-top: 60px;
