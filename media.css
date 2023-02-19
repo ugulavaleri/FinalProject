@@ -145,6 +145,9 @@
         row-gap: 40px;
         column-gap: 0;
     }
+    .BenefitsContainer {
+        margin-top: 150px;
+    }
     .BenefitsContainer .benefits .benefitsRightPart {
         grid-row-start: 1;
         grid-row-end: 1;
@@ -204,11 +207,49 @@
     .hideText {
         display: inline-block;
     }
+    .frequentlyQuestions {
+        margin-top: 140px;
+    }
     .frequentlyQuestionsbody .dropDownIcon {
         display: none;
     }
     .frequentlyQuestionsbody .questionItem {
         border: none;
         text-align: center;
+    }
+
+    /* Main page footer responsive  */
+    .footerContainer {
+        margin-top: 100px;
+    }
+    .footerContainer .footerHeadline {
+        padding: 40px 30px;
+    }
+    .footerContainer .footerHeadline h2 {
+        font-size: 24px;
+    }
+    .insideFooterBody .footerlist {
+        padding-top: 20px;
+    }
+    .insideFooterBody .footerMainPart {
+        padding: 50px 20px;
+    }
+    .insideFooterBody .aboutList {
+        display: none;
+    }
+    .footerBody .insideFooterBody {
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 20px;
+    }
+    .footerContainer .insideFooterBody .footerMainPart {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        margin: 0 auto;
+    }
+    .insideFooterBody .officeAdressContainer {
+        grid-row-start: 3;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        margin: 0 auto;
     }
 }
