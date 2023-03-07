@@ -24,6 +24,7 @@ const swiperSlide3 = document.getElementById("swiperSlide3");
 const swiperScrollbar = document.getElementById("swiperScrollbar");
 
 const insideSwiperBox = document.getElementById("insideSwiperBox");
+const mobileVideoButton = document.getElementById("mobileVideoButton");
 
 if (window.matchMedia("(max-width: 800px)").matches) {
     var swiper = new Swiper(".mySwiper", {
@@ -62,3 +63,7 @@ for (let index = 0; index < afterClickShow.length; index++) {
         afterClickShow[index].classList.toggle("hideText");
     });
 }
+
+mobileVideoButton.addEventListener("click", () => {
+    window.location.href = "./videos/HyperX Design.mp4";
+});

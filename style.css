@@ -518,6 +518,9 @@ select {
     color: #fff;
     cursor: pointer;
 }
+.info-textarea .videoArea video {
+    width: 100%;
+}
 .aboutCompany-box .videoBtn:hover {
     background-color: rgb(66, 66, 66);
     transition: background-color 0.15s;
@@ -532,13 +535,6 @@ select {
     grid-auto-rows: minmax(400px, auto);
     gap: 40px;
     margin-top: 150px;
-}
-.aboutCompany-box .info-textarea .videoIconBg {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    background-color: #fff;
-    margin-top: -150px;
 }
 
 .extraCompanyInfo {
